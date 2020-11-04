@@ -1,0 +1,1 @@
+# gradle-delete-broken-symlink-fails

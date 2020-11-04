@@ -26,4 +26,12 @@ BUILD SUCCESSFUL in 441ms
 
 $ ls -lhd sample-*
 lrwxrwxrwx 1 slovdahl slovdahl 16 nov  4 11:24 sample-symlink -> sample-directory
+
+$ ./gradlew deleteSymlinkWithFollowSymlinksTrue
+
+BUILD SUCCESSFUL in 441ms
+1 actionable task: 1 up-to-date
+
+$ ls -lhd sample-*
+lrwxrwxrwx 1 slovdahl slovdahl 16 nov  4 11:24 sample-symlink -> sample-directory
 ```

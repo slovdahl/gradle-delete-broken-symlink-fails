@@ -24,3 +24,8 @@ task deleteDirectory(type: Delete) {
 task deleteSymlink(type: Delete) {
     delete file('sample-symlink')
 }
+
+task deleteSymlinkWithFollowSymlinksTrue(type: Delete) {
+    followSymlinks(true)
+    delete file('sample-symlink')
+}

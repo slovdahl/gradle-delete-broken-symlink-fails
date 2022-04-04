@@ -1,6 +1,6 @@
 # gradle-delete-broken-symlink-fails
 
-This repository contains a MCVE where Gradle 6.7 fails to delete a broken symlink.
+This repository contains a MCVE where Gradle 7.4 fails to delete a broken symlink. Also verified on Gradle 6.7 and 5.6.4.
 
 Steps to reproduce:
 
